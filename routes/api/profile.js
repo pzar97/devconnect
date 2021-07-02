@@ -9,9 +9,6 @@ const jwt = require('jsonwebtoken');
 // const request = require('request');
 const config = require('config');
 const axios = require('axios');
-// const client_id = config.get('githubClientId');
-// const client_secret = config.get('githubSecret');
-// const githubToken = config.get('acc_token');
 const { check, validationResult } = require('express-validator');
 const { response } = require('express');
 
